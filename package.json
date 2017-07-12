@@ -9,7 +9,8 @@
     "gatsby-plugin-react-helmet": "^1.0.1",
     "gatsby-remark-prismjs": "^1.0.1",
     "gatsby-source-filesystem": "^1.0.1",
-    "gatsby-transformer-remark": "^1.1.0"
+    "gatsby-transformer-remark": "^1.1.0",
+    "react-live": "^1.7.0"
   },
   "devDependencies": {
     "gh-pages": "^0.12.0"

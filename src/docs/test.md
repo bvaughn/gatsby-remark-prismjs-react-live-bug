@@ -1,12 +1,8 @@
-# Test
-
----
-
-Hi this _is_ a *test* of `stuff`.
+Opening this page by clicking on the header will show a line highlight.
 
 ```js{2,2}
-// Highlight the line below:
-ReactDOM.render(<div/>, container);
-// Stupid testing
-alert('Whatever!');
+// This is a line.
+// This line should be highlighted.
 ```
+
+Reloading the page will cause the highlight to disappear.

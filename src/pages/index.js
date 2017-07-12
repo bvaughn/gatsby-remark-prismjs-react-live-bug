@@ -1,13 +1,14 @@
 import React from "react"
 import Link from "gatsby-link"
-import Helmet from "react-helmet"
+
+// Including anything from the react-live package is sufficient to trigger the bug.
+import {LiveEditor} from "react-live"
 
 export default class Index extends React.Component {
   render() {
     return (
       <div>
-        <h1>Homage page</h1>
-        <Link to="/test.html">Markdown page</Link>
+        <p>Click on the "Docs" link above to see thie issue.</p>
       </div>
     )
   }
