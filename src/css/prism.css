@@ -1,3 +1,93 @@
+.gatsby-highlight {
+  background: #282c34;
+  border-radius: 10px;
+  color: #fff;
+}
+
 .gatsby-highlight-code-line {
-  background-color: yellow;
+  background-color: #393d45;
+  display: block;
+}
+
+.token.attr-name {
+  color: #fff;
+}
+
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #999999;
+}
+
+.token.property,
+.token.boolean,
+.token.number,
+.token.function-name,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #aa759f;
+}
+
+.token.punctuation,
+.token.tag,
+.token.string {
+  color: #99c27c;
+}
+
+.token.selector,
+.token.char,
+.token.function,
+.token.builtin,
+.token.inserted {
+  color: #61dafb;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.token.variable {
+  color: #99c27c;
+}
+
+.token.attr-value {
+  color: #999;
+}
+
+.token.keyword {
+  color: #c4f1fe;
+}
+
+.token.atrule,
+.token.class-name {
+  color: #61dafb;
+}
+
+.token.regex,
+.token.important {
+}
+
+.language-css .token.string,
+.style .token.string {
+}
+
+.token.important {
+  font-weight: normal;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.namespace {
+  opacity: .7;
 }
