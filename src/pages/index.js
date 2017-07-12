@@ -8,7 +8,7 @@ export default class Index extends React.Component {
   render() {
     return (
       <div>
-        <p>Click on the "Docs" link above to see thie issue.</p>
+        <p>Click on the "Docs" link above to see the issue.</p>
       </div>
     )
   }
