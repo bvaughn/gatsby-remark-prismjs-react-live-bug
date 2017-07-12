@@ -1,10 +1,8 @@
-# gatsby-starter-default
-The default Gatsby starter
+This repo demonstrates a bug between the `gatsby-remark-prismjs` plugin and the `react-live` library.
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+To reproduce this bug just run the following command:
 ```
-gatsby new gatsby-example-site
+gatsby develop
 ```
-## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+Now open localhost:8000 and follow the onscreen instructions.
